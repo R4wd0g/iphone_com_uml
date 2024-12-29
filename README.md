@@ -1,4 +1,4 @@
-# Projeto Celular com UML
+# Projeto iPhone com UML
 
 Este projeto implementa uma classe `Celular` que possui funcionalidades de um player de música, telefone e navegador. A classe `Celular` implementa as interfaces `MusicPlayer`, `Telefone` e `Navegador`.
 
