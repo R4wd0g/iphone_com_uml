@@ -1,0 +1,43 @@
+@startuml
+
+class Celular {
+    + void tocar()
+    + void pausar()
+    + void parar()
+    + void ligar()
+    + void atender()
+    + void desligarChamada()
+    + void navegar()
+    + void pesquisar()
+    + void exibirPagina()
+    + void adicionarNovaAba()
+    + void atualizarPagina()
+}
+
+interface MusicPlayer {
+    + void tocar()
+    + void pausar()
+    + void parar()
+}
+
+interface Telefone {
+    + void ligar()
+    + void atender()
+    + void desligarChamada()
+}
+
+interface Navegador {
+    + void navegar()
+    + void pesquisar()
+    + void exibirPagina()
+    + void adicionarNovaAba()
+    + void atualizarPagina()
+}
+
+Celular ..|> MusicPlayer
+Celular ..|> Telefone
+Celular ..|> Navegador
+
+@enduml
+
+
